@@ -7,7 +7,7 @@
     "node": "node server.js",
     "build": "vite build",
     "deploy": "gh-pages -d src/dist",
-    "start": "vite"
+    "vite": "vite"
   },
   "dependencies": {
     "cors": "^2.8.5",
