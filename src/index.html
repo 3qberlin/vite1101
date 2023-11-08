@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap w/ Vite</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"
+        integrity="sha512-emSwuKiMyYedRwflbZB2ghzX8Cw8fmNVgZ6yQNNXXagFzFOaQmbvQ1vmDkddHjm5AITcBIZfC7k4ShQSjgPAmQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -12,9 +15,22 @@
         <h1>Hello, Bootstrap and Vite!</h1>
         <button class="btn btn-primary">Primary button</button>
         <%- include('./ejs/abc') -%>
-        npm run dev + plus
+            npm run dev + plus
     </div>
     <script type="module" src="./js/main.js"></script>
+    <script>
+        function signUp()
+  {axios
+    .post("http://localhost:3000/signup", {
+      email: "olivierNew@mail.com",
+      password: "12345",
+      nickName: "Nini",
+    })
+    .then(function (res) {
+      console.log("res", res);
+    })};
+    signUp();
+    </script>
 </body>
 
 </html>

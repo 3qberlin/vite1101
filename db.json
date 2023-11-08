@@ -1,4 +1,12 @@
 {
+  "users": [
+    {
+      "email": "olivierNew@mail.com",
+      "password": "$2a$10$fMuE9Ho7hjj91amHRHQ68.pc09qJCwyBhYoJd1YcK4nW1jLgYC9He",
+      "nickName": "Nini",
+      "id": 1
+    }
+  ],
   "posts": [
     {
       "id": 1,
