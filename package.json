@@ -4,10 +4,10 @@
   "description": "Deploy JSON Server to Vercel",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "node": "node server.js",
     "build": "vite build",
     "deploy": "gh-pages -d src/dist",
-    "dev": "vite"
+    "start": "vite"
   },
   "dependencies": {
     "cors": "^2.8.5",
