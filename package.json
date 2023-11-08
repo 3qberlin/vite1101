@@ -16,6 +16,5 @@
     "json-server-auth": "^2.1.0",
     "sass": "^1.69.5",
     "vite-plugin-ejs": "^1.6.4",
-    "vite": "^4.5.0"
   }
 }
